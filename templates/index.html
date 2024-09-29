@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question App</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="topic-title">Topic I</h1>
+      <div class="question-container" id="question-container">
+        <p id="question">Press "Draw" to get a question!</p>
+      </div>
+      <button class="nav-button" id="prev-button" disabled>
+        Poprzednia Runda
+      </button>
+      <button class="action-button" id="draw-button">Losuj</button>
+      <button class="nav-button" id="next-button">Nastepna Runda</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>

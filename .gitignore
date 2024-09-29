@@ -1,29 +1,11 @@
 # Python
 __pycache__/
-*.py[cod]
 *.pyo
 *.pyd
 *.db
-*.sqlite3
 
 # Virtual environment
 venv/
 .env
-
-# IDE files
-.idea/
-.vscode/
-*.sublime-workspace
-*.sublime-project
-
-# Logs
-*.log
-
-# Cache files
-*.cache
-
-# Jupyter Notebook
-.ipynb_checkpoints/
-
 
 delete.txt
